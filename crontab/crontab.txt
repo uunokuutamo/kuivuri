@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+# */1 * * * * /home/esa/linkquality.sh
+@hourly /usr/sbin/ntpdate-debian -s
+*/1 * * * * /usr/local/bin/digitmp.sh
